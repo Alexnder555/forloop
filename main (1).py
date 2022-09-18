@@ -1,11 +1,12 @@
-numbers_list = []
+umbers_list = []
 even_integers = []
 odd_integers = []
-
-for number in range(301):
+rng = int(input("Provide a range: "))
+for number in range(rng):
   numbers_list.append(number)
 print(numbers_list)
 
+  
 for number in numbers_list:
   if number % 2 == 0:
       even_integers.append(number)
